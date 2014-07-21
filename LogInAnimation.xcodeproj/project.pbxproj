@@ -19,6 +19,7 @@
 		7786F6A9197B7886005B015D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7786F691197B7886005B015D /* UIKit.framework */; };
 		7786F6B1197B7886005B015D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7786F6AF197B7886005B015D /* InfoPlist.strings */; };
 		7786F6B3197B7886005B015D /* LogInAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7786F6B2197B7886005B015D /* LogInAnimationTests.m */; };
+		7786F6BE197B7D1B005B015D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7786F6BD197B7D1B005B015D /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7786F6AE197B7886005B015D /* LogInAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogInAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		7786F6B0197B7886005B015D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7786F6B2197B7886005B015D /* LogInAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInAnimationTests.m; sourceTree = "<group>"; };
+		7786F6BC197B7D1B005B015D /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		7786F6BD197B7D1B005B015D /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				7786F69D197B7886005B015D /* AppDelegate.m */,
 				7786F69F197B7886005B015D /* Images.xcassets */,
 				7786F694197B7886005B015D /* Supporting Files */,
+				7786F6BC197B7D1B005B015D /* LogInViewController.h */,
+				7786F6BD197B7D1B005B015D /* LogInViewController.m */,
 			);
 			path = LogInAnimation;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				7786F69E197B7886005B015D /* AppDelegate.m in Sources */,
 				7786F69A197B7886005B015D /* main.m in Sources */,
+				7786F6BE197B7D1B005B015D /* LogInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
