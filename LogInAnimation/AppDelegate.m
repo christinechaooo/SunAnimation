@@ -17,7 +17,7 @@
     
     self.window.rootViewController = [[LogInViewController alloc] init];
     
-    self.window.backgroundColor = [UIColor grayColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
